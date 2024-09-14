@@ -29,3 +29,4 @@ def to_string(text):
 @app.task
 def send_mail(content):
     print('send mail, content is %s' % content)
+

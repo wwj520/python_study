@@ -8,7 +8,7 @@ from celery import Celery
 app = Celery('wedo')
 
 # 加载配置
-app.config_from_object("celery_chuji.config")  # noqa
+app.config_from_object("config")  # noqa
 
 
 
